@@ -1,0 +1,184 @@
+/*@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+/*@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 90%;
+}
+.remark-code-line-highlighted     { background-color: #ffff88; }
+
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #f3f3f3;
+}
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ * {
+  clear: both;
+}
+img, video, iframe {
+  max-width: 100%;
+}
+blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
+table {
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee }
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+
+.remark-slide-number { display:none; }
+@page {
+  size: 1210px 681px;
+  margin: 0;
+}
+
+table {
+    font-size: small;
+}
+td {
+    vertical-align: top;
+}
+
+body { font-family: 'Raleway', 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif; }
+h1, h2, h3, h4, h5 {
+  font-family: 'Patua One', 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+h1 { margin-top: 12px; margin-bottom: 18px; }
+
+h4 { font-size: 28px; margin-bottom:5px; margin-top:5px;}
+
+.remark-code, .remark-inline-code { font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace; }
+
+div.my-header {
+    background-color: #F77A00;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffb76b), color-stop(0%,#ffa73d), color-stop(0%,#ffffff), color-stop(10%,#ffffff), color-stop(25%,#F77A00), color-stop(100%,#F77A00));
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+div.my-footer {
+    background: linear-gradient(#ffffff00 25%, #272822 25%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 15%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+div.my-footer span {
+    font-size: 10pt;
+    color: #F7F8FA;
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
+}
+
+div.my-footer img {
+    max-height: 100%;
+    max-width: 25%;
+}
+
+.logo_r {
+    float: right;
+    clear: none;
+    margin-right: 50px;
+}
+
+.logo_l {
+    float: left;
+    clear: none;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-left: 50px;
+}
+
+li {
+    margin-bottom: 1ex;
+}
+
+.remark-inline-code {
+  background: #e7e8e2;
+  border-radius: 6px;
+  padding: 4px;
+  color: #803030;
+}
+
+.digression {
+  background-color: #eff;
+}
+
+.centred {
+    display: block; margin-left: auto; margin-right: auto;
+}
+
+.ovlogo {
+    background-image: url("ovlogo-blur.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.ovlogo div.my-footer {
+    display:none;
+}
