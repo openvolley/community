@@ -1,0 +1,4 @@
+*.dvw
+examples.R
+local_code.R
+index_cache/

@@ -1,0 +1,16 @@
+.usavlogo div.my-footer {
+    /*background: none;*/
+    display:none;
+}
+
+.usavlogo {
+    background-image: url("usav_tech_logo-dark-blur.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.notov {
+    background-color: #f7ca78;
+}
+
+h1 img {font-size:14px;}
