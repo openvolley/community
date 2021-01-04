@@ -48,14 +48,14 @@ class: inverse, ovlogo
 
 # The openvolley project
 
-https://openvolley.github.io/community/talks/overview/
+https://openvolley.org/community/talks/overview/
 
 ```{r qr, include = FALSE}
 qrimg <- "qrcode.png"
 if (!file.exists(qrimg)) {
     png(filename = qrimg, width = 320, height = 320)
     library(qrcode)
-    qrcode_gen("https://openvolley.github.io/community/talks/overview/", plotQRcode = TRUE)
+    qrcode_gen("https://openvolley.org/community/talks/overview/", plotQRcode = TRUE)
     dev.off()
     magick::image_write(magick::image_trim(magick::image_read(qrimg)), qrimg)
 }
@@ -73,7 +73,7 @@ With Mark Lebedew, Tyler Widdison, Dwynne Wight, Christophe Elek, Chad Gordon, C
 
 # The openvolley project
 
-https://openvolley.github.io/community/talks/overview/
+https://openvolley.org/community/talks/overview/
 
 <!--img style="background: white; padding:10px; float:right;clear:none; margin:20px; width:30%; image-rendering: crisp-edges;" src="qrcode.png" alt="qrcode" /-->
 
@@ -396,7 +396,7 @@ Shiny app
 
 # Analytics code snippets
 
-https://openvolley.github.io/volley-analytics-snippets
+https://openvolley.org/volley-analytics-snippets
 
 Code examples, guides, how-tos.
 
